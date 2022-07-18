@@ -1,0 +1,6 @@
+C:\Repositories\Paperless\RawInput\bin\Debug\RawInput.dll
+C:\Repositories\Paperless\RawInput\bin\Debug\RawInput.pdb
+C:\Repositories\Paperless\RawInput\obj\Debug\RawInput.csproj.AssemblyReference.cache
+C:\Repositories\Paperless\RawInput\obj\Debug\RawInput.csproj.CoreCompileInputs.cache
+C:\Repositories\Paperless\RawInput\obj\Debug\RawInput.dll
+C:\Repositories\Paperless\RawInput\obj\Debug\RawInput.pdb
