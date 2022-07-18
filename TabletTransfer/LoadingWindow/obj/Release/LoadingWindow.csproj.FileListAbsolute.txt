@@ -1,0 +1,11 @@
+C:\Repositories\Paperless\TabletTransfer\LoadingWindow\bin\Release\LoadingWindow.exe.config
+C:\Repositories\Paperless\TabletTransfer\LoadingWindow\bin\Release\LoadingWindow.exe
+C:\Repositories\Paperless\TabletTransfer\LoadingWindow\bin\Release\LoadingWindow.pdb
+C:\Repositories\Paperless\TabletTransfer\LoadingWindow\obj\Release\LoadingWindow.csproj.AssemblyReference.cache
+C:\Repositories\Paperless\TabletTransfer\LoadingWindow\obj\Release\LoadingWindow.csproj.SuggestedBindingRedirects.cache
+C:\Repositories\Paperless\TabletTransfer\LoadingWindow\obj\Release\LoadingWindow.Loading.resources
+C:\Repositories\Paperless\TabletTransfer\LoadingWindow\obj\Release\LoadingWindow.Properties.Resources.resources
+C:\Repositories\Paperless\TabletTransfer\LoadingWindow\obj\Release\LoadingWindow.csproj.GenerateResource.cache
+C:\Repositories\Paperless\TabletTransfer\LoadingWindow\obj\Release\LoadingWindow.csproj.CoreCompileInputs.cache
+C:\Repositories\Paperless\TabletTransfer\LoadingWindow\obj\Release\LoadingWindow.exe
+C:\Repositories\Paperless\TabletTransfer\LoadingWindow\obj\Release\LoadingWindow.pdb

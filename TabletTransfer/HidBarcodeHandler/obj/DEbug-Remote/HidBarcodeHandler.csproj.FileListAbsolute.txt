@@ -1,0 +1,6 @@
+C:\Repositories\Paperless\TabletTransfer\HidBarcodeHandler\bin\DEbug-Remote\HidBarcodeHandler.dll
+C:\Repositories\Paperless\TabletTransfer\HidBarcodeHandler\bin\DEbug-Remote\RawInput.dll
+C:\Repositories\Paperless\TabletTransfer\HidBarcodeHandler\obj\DEbug-Remote\HidBarcodeHandler.csproj.AssemblyReference.cache
+C:\Repositories\Paperless\TabletTransfer\HidBarcodeHandler\obj\DEbug-Remote\HidBarcodeHandler.csproj.CoreCompileInputs.cache
+C:\Repositories\Paperless\TabletTransfer\HidBarcodeHandler\obj\DEbug-Remote\HidBarcodeHandler.csproj.CopyComplete
+C:\Repositories\Paperless\TabletTransfer\HidBarcodeHandler\obj\DEbug-Remote\HidBarcodeHandler.dll

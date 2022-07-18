@@ -1,0 +1,8 @@
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\bin\DEbug-Remote\CommonDatabase.dll.config
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\bin\DEbug-Remote\CommonDatabase.dll
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\bin\DEbug-Remote\Oracle.ManagedDataAccess.dll
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\bin\DEbug-Remote\QRCoder.dll
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\obj\DEbug-Remote\CommonDatabase.csproj.AssemblyReference.cache
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\obj\DEbug-Remote\CommonDatabase.csproj.CoreCompileInputs.cache
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\obj\DEbug-Remote\CommonDatabase.csproj.CopyComplete
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\obj\DEbug-Remote\CommonDatabase.dll

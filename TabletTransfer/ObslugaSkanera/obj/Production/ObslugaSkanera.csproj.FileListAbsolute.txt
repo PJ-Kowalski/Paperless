@@ -1,0 +1,14 @@
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\bin\Production\ObslugaSkanera.exe.config
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\bin\Production\ObslugaSkanera.exe
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\bin\Production\HidBarcodeHandler.dll
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\bin\Production\RawInput.dll
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\Production\ObslugaSkanera.csproj.AssemblyReference.cache
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\Production\ObslugaSkanera.Main.resources
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\Production\ObslugaSkanera.Properties.Resources.resources
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\Production\ObslugaSkanera.UI.MySerialPort.resources
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\Production\ObslugaSkanera.WindowChooser.resources
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\Production\ObslugaSkanera.csproj.GenerateResource.cache
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\Production\ObslugaSkanera.csproj.CoreCompileInputs.cache
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\Production\ObslugaSkanera.csproj.CopyComplete
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\Production\ObslugaSkanera.exe
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\Production\ObslugaSkanera.csproj.SuggestedBindingRedirects.cache

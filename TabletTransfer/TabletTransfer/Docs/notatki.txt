@@ -1,0 +1,14 @@
+﻿Tylko jeden user z AD, shell podmieniony na plikację.
+Zablokowane wszystko poza wyloguj.
+Da radę by był bez hasła?
+
+Monitorowanie przez serwer:
+	- czy odpowiada na pingi, czas odpowiedzi
+	- jaki AP?
+	- czas ostatniego zdarzenia
+
+Aplikacja:
+	- w razie braku sieci nie możliwe jest przekazanie
+	- po godzinie bez sieci blokada, może zdjąć tylko SL
+
+u góry aktywny operator, albo z boku bo to panorama? ala pasek tvn

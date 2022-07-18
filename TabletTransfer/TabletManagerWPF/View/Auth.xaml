@@ -1,0 +1,35 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TabletManagerWPF.View"
+        xmlns:ViewModel="clr-namespace:TabletManagerWPF.ViewModel" xmlns:ValueConverters="clr-namespace:TabletManagerWPF.ValueConverters" x:Class="TabletManagerWPF.View.Auth"
+        d:DataContext="{d:DesignInstance Type=ViewModel:AuthVM}"
+        mc:Ignorable="d"
+        Title="Auth" Height="277" Width="250" MinHeight="300" ResizeMode="NoResize">
+    <Window.Resources>
+        <ValueConverters:ToPasswordConverter x:Key="ToPasswordConverter"/>
+    </Window.Resources>
+    
+    <Window.InputBindings>
+        <KeyBinding Key="Return" Command="{Binding LoginCommand}" />
+    </Window.InputBindings>
+    
+    <StackPanel>
+        <TextBlock Text="Tablet Manager" Margin="5,5,0,0"/>
+        <GroupBox x:Name="groupBox" Height="50" Header="Lokalizacja" Margin="5,5,5,0">
+            <ComboBox ItemsSource="{Binding Locations}" DisplayMemberPath="Name" SelectedValue="{Binding SelectedLocation}" SelectedValuePath="Name" FontSize="18" />
+        </GroupBox>
+        <GroupBox x:Name="groupBox2" Height="50" Header="Numer ACP" Margin="5,5,5,0">
+            <TextBox FontSize="18" Text="{Binding ACPno, Mode=TwoWay}" BorderBrush="{x:Null}" VerticalAlignment="Center"/>
+        </GroupBox>
+        <GroupBox x:Name="groupBox3" Height="50" Header="Hasło" Margin="5,5,5,0">
+            <!--<TextBox FontSize="18" Text="{Binding Password, Mode=TwoWay}" BorderBrush="{x:Null}" VerticalAlignment="Center" FontFamily="Segoe Fluent Icons"/>-->
+            <PasswordBox Name="PasswordBox" PasswordChanged="PasswordBox_PasswordChanged" />
+        </GroupBox>
+        <Button Template="{StaticResource ButtonPL}" x:Name="button1" Content="OK" Margin="10,10,10,0" Background="{x:Null}" Command="{Binding LoginCommand, Mode=OneWay}" Height="30">
+        </Button>
+
+    </StackPanel>
+</Window>

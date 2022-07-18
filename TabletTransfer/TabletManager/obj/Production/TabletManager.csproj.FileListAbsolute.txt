@@ -1,0 +1,57 @@
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\sim_barcode_history.txt
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\Resources\tablet_barcode.html
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\Resources\badge.html
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\RemoveConnectionString.exe
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\TabletManager.exe.config
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\TabletManager.exe
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\CommonDatabase.dll
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\CommonUI.dll
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\ConnStringHelperLib.dll
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\HidBarcodeHandler.dll
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\Oracle.ManagedDataAccess.dll
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\QRCoder.dll
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\System.Reactive.dll
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\System.Runtime.CompilerServices.Unsafe.dll
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\System.Threading.Tasks.Extensions.dll
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\RawInput.dll
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\CommonDatabase.dll.config
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\CommonUI.dll.config
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\System.Reactive.xml
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\System.Runtime.CompilerServices.Unsafe.xml
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\System.Threading.Tasks.Extensions.xml
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.csproj.AssemblyReference.cache
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.AuthAndPassDevices.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.Controls.SubstituteAuth.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.Controls.TabletPickup.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.AuthPassChange.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.Auth.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.CommonControls.Printer.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.Controls.AlertIcon.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.Controls.AlertsGrid.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.Controls.Events.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.Main.Tablets.Controls.LockReason.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.AddOperator.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.Controls.CustomDateRange.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.Controls.TabletHistoryGrid.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.Controls.TabletDataGrid.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.Controls.TabletInfo.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.Controls.Tablets.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.Controls.UserInfo.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.Controls.Users.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.LevelSelect.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.LocationManager.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.Main.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.Properties.Resources.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.csproj.GenerateResource.cache
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.csproj.CoreCompileInputs.cache
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.csproj.CopyComplete
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.exe
+C:\Repositories\Paperless\TabletTransfer\TabletManager\bin\Production\Resources\defuser.png
+Z:\_TESTY\19_PKowalski\Tablet Manager\Resources\tablet_barcode.html
+Z:\_TESTY\19_PKowalski\Tablet Manager\Resources\badge.html
+Z:\_TESTY\19_PKowalski\Tablet Manager\sim_barcode_history.txt
+Z:\_TESTY\19_PKowalski\Tablet Manager\RemoveConnectionString.exe
+Z:\_TESTY\19_PKowalski\Tablet Manager\TabletManager.exe.config
+Z:\_TESTY\19_PKowalski\Tablet Manager\TabletManager.exe
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.UI.Main.Tablets.Controls.LocalizationChange.resources
+C:\Repositories\Paperless\TabletTransfer\TabletManager\obj\Production\TabletManager.g.resources

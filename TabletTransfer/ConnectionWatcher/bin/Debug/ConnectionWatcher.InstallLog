@@ -1,0 +1,66 @@
+﻿Installing assembly 'C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.InstallLog
+   assemblypath = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe assembly.
+Committing assembly 'C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.InstallLog
+   assemblypath = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.InstallLog
+   assemblypath = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe assembly.
+Committing assembly 'C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.InstallLog
+   assemblypath = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe assembly.
+Remove InstallState file because there are no installers.
+Uninstalling assembly 'C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.InstallLog
+   assemblypath = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe assembly.
+Installing assembly 'C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.InstallLog
+   assemblypath = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe
+Installing service TabletTransferConnectionService...
+Creating EventLog source TabletTransferConnectionService in log Application...
+Rolling back assembly 'C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.InstallLog
+   assemblypath = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe
+Restoring event log to previous state for source TabletTransferConnectionService.
+Installing assembly 'C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.InstallLog
+   assemblypath = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe
+Installing service TabletTransferConnectionService...
+Service TabletTransferConnectionService has been successfully installed.
+Creating EventLog source TabletTransferConnectionService in log Application...
+Committing assembly 'C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.InstallLog
+   assemblypath = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe
+Uninstalling assembly 'C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.InstallLog
+   assemblypath = C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Debug\ConnectionWatcher.exe
+Removing EventLog source TabletTransferConnectionService.
+Service TabletTransferConnectionService is being removed from the system...
+Service TabletTransferConnectionService was successfully removed from the system.

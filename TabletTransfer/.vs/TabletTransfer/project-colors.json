@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "de7bbde0-14d6-4b7d-8593-8c29ec942bcb": {
+      "ProjectGuid": "de7bbde0-14d6-4b7d-8593-8c29ec942bcb",
+      "DisplayName": "TabletManager",
+      "ColorIndex": 0
+    },
+    "8b9c1bf5-afaf-413a-97b3-0c638ea1f8c5": {
+      "ProjectGuid": "8b9c1bf5-afaf-413a-97b3-0c638ea1f8c5",
+      "DisplayName": "TabletTransfer",
+      "ColorIndex": 1
+    },
+    "1890c530-dd58-49cd-bc10-b4eaa2477c5a": {
+      "ProjectGuid": "1890c530-dd58-49cd-bc10-b4eaa2477c5a",
+      "DisplayName": "CommonDatabase",
+      "ColorIndex": 2
+    },
+    "3a433889-1c04-4ca9-8306-7343ef30bfb3": {
+      "ProjectGuid": "3a433889-1c04-4ca9-8306-7343ef30bfb3",
+      "DisplayName": "HidBarcodeHandler",
+      "ColorIndex": 3
+    },
+    "4143d085-38cf-4640-bb05-2fdffaf94d76": {
+      "ProjectGuid": "4143d085-38cf-4640-bb05-2fdffaf94d76",
+      "DisplayName": "RawInput",
+      "ColorIndex": 4
+    },
+    "b5468d30-030e-4f88-95a7-9cd6a1637936": {
+      "ProjectGuid": "b5468d30-030e-4f88-95a7-9cd6a1637936",
+      "DisplayName": "TabletManagerWPF",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "2c4e7057-4d24-4ee5-972e-c410b5f8a4bc": {
+      "ProjectGuid": "2c4e7057-4d24-4ee5-972e-c410b5f8a4bc",
+      "DisplayName": "LoadingWindow",
+      "ColorIndex": 6
+    },
+    "b56bd3e1-f173-470e-8340-0185a223859e": {
+      "ProjectGuid": "b56bd3e1-f173-470e-8340-0185a223859e",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 7
+    },
+    "d4361c4b-33af-4283-912f-b78c72aa1596": {
+      "ProjectGuid": "d4361c4b-33af-4283-912f-b78c72aa1596",
+      "DisplayName": "ObslugaSkanera",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}

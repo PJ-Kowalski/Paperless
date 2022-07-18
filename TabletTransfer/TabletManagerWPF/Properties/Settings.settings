@@ -1,0 +1,16 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TabletManagerWPF.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PaperlessConnectionStringEnc" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">v+eF36CzUdM3TJk24JPRdU22/oMOH2dKAEICLVHrI/wBYRHcCX+3KXzbLKaIKH9ZaEORpiF9L46v7aQQT+fPbOLo9+f4TLiJun68vfriWfH4Ic+Ev73OD7fl2NvxNeyWjq1GVN1Q/RyrHQFQ1EmbS+RuueO7cM4b</Value>
+    </Setting>
+    <Setting Name="PaperlessConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=172.26.85.1:1521/dbadm;Persist Security Info=True;User ID=PAPERLESS;Password=kOOpaJ4uwsfG0WN4UCnt14;&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=172.26.85.1:1521/dbadm;Persist Security Info=True;User ID=PAPERLESS;Password=kOOpaJ4uwsfG0WN4UCnt14;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

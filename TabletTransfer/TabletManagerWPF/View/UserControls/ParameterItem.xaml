@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="TabletManagerWPF.View.UserControls.ParameterItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TabletManagerWPF.View.UserControls"
+             x:Name="ParameterNameX"
+             mc:Ignorable="d" Height="27" MinWidth="298"  >
+
+    <Grid Background="White" MinHeight="27" MaxHeight="27" >
+        <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock x:Name="textBlock" Text="{Binding Parameter, ElementName=ParameterNameX}" TextWrapping="Wrap"  VerticalAlignment="Center" Margin="2,0,2,0" Height="27"/>
+        <TextBlock x:Name="textBlock1"  TextWrapping="Wrap" Text="{Binding Value, ElementName=ParameterNameX}" VerticalAlignment="Center" Grid.Column="1" Margin="2,0,0,0" Height="27"/>
+    </Grid>
+</UserControl>

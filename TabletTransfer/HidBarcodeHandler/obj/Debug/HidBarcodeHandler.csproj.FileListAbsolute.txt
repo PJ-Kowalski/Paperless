@@ -1,0 +1,17 @@
+C:\Users\Pkowalski2\Source\Repos\Paperless\TabletTransfer\HidBarcodeHandler\bin\Debug\HidBarcodeHandler.dll
+C:\Users\Pkowalski2\Source\Repos\Paperless\TabletTransfer\HidBarcodeHandler\bin\Debug\HidBarcodeHandler.pdb
+C:\Users\Pkowalski2\Source\Repos\Paperless\TabletTransfer\HidBarcodeHandler\bin\Debug\RawInput.dll
+C:\Users\Pkowalski2\Source\Repos\Paperless\TabletTransfer\HidBarcodeHandler\obj\Debug\HidBarcodeHandler.csproj.CoreCompileInputs.cache
+C:\Users\Pkowalski2\Source\Repos\Paperless\TabletTransfer\HidBarcodeHandler\obj\Debug\HidBarcodeHandler.csproj.CopyComplete
+C:\Users\Pkowalski2\Source\Repos\Paperless\TabletTransfer\HidBarcodeHandler\obj\Debug\HidBarcodeHandler.dll
+C:\Users\Pkowalski2\Source\Repos\Paperless\TabletTransfer\HidBarcodeHandler\obj\Debug\HidBarcodeHandler.pdb
+C:\Users\Pkowalski2\Source\Repos\Paperless\TabletTransfer\HidBarcodeHandler\obj\Debug\HidBarcodeHandler.csproj.AssemblyReference.cache
+C:\Repositories\Paperless\TabletTransfer\HidBarcodeHandler\bin\Debug\HidBarcodeHandler.dll
+C:\Repositories\Paperless\TabletTransfer\HidBarcodeHandler\bin\Debug\HidBarcodeHandler.pdb
+C:\Repositories\Paperless\TabletTransfer\HidBarcodeHandler\bin\Debug\RawInput.dll
+C:\Repositories\Paperless\TabletTransfer\HidBarcodeHandler\bin\Debug\RawInput.pdb
+C:\Repositories\Paperless\TabletTransfer\HidBarcodeHandler\obj\Debug\HidBarcodeHandler.csproj.AssemblyReference.cache
+C:\Repositories\Paperless\TabletTransfer\HidBarcodeHandler\obj\Debug\HidBarcodeHandler.csproj.CoreCompileInputs.cache
+C:\Repositories\Paperless\TabletTransfer\HidBarcodeHandler\obj\Debug\HidBarcodeHandler.csproj.CopyComplete
+C:\Repositories\Paperless\TabletTransfer\HidBarcodeHandler\obj\Debug\HidBarcodeHandler.dll
+C:\Repositories\Paperless\TabletTransfer\HidBarcodeHandler\obj\Debug\HidBarcodeHandler.pdb

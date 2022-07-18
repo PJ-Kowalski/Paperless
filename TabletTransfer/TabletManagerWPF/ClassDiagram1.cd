@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TabletManagerWPF.ViewModel.ChangeLocationVM">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAEAAEAQBAAAAEEAgYAAAAAAAAAAAAAAQAAABAAAAI=</HashCode>
+      <FileName>ViewModel\ChangeLocationVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TabletManagerWPF.App" Collapsed="true">
+    <Position X="31.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TabletManagerWPF.Helpers.ExecuteCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2" Y="13" Width="17.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAQBAAAAA=</HashCode>
+      <FileName>Helpers\ExecuteCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.Properties.Resources" Collapsed="true">
+    <Position X="33" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TabletManagerWPF.Properties.Settings" Collapsed="true">
+    <Position X="31.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAIAAAAAABgAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TabletManagerWPF.ValueConverters.ImageToSourceConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ValueConverters\ImageToSourceConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.ValueConverters.PositionToColorConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ValueConverters\PositionToColorConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.ValueConverters.ToPasswordConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ValueConverters\ToPasswordConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.ValueConverters.VisibilityConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ValueConverters\VisibilityConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.View.UserControls.AddUser" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\AddUser.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.View.UserControls.ParameterItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAQAAAAAAAQAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>View\UserControls\ParameterItem.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.View.UserControls.TabletControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAEAAAAIBAAIAAAAAAgAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>View\UserControls\TabletControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.View.UserControls.GridItem" Collapsed="true">
+    <Position X="27" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAEAAAAAAAAAA=</HashCode>
+      <FileName>View\UserControls\TabletControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TabletManagerWPF.View.Auth" BaseTypeListCollapsed="true">
+    <Position X="16" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="TabletManagerWPF.View.Auth.PasswordChangeEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>View\Auth.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Auth.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.View.ChangeLocation" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="TabletManagerWPF.View.ChangeLocation.PasseordChanged" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>View\ChangeLocation.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\ChangeLocation.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.View.ChangePassword" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAABAAAAEAAAAAAAAAAAAAQAAAKAA=</HashCode>
+      <FileName>View\ChangePassword.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.View.ChangeShift" BaseTypeListCollapsed="true">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\ChangeShift.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.View.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.View.Printer" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Printer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.View.UserLabelControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAgAAAACAgAAQAgAAAAAAAAABAAQAAAAAAAAA=</HashCode>
+      <FileName>View\UserControls\UserLabelControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.View.Pages.EventsPage" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Pages\EventsPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.View.Pages.TabletsPage" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Pages\TabletsPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.View.Pages.UsersPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Pages\UsersPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TabletManagerWPF.ViewModel.AddUserVM">
+    <Position X="11.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAARAAABABAggACgAACAAEAgAAAAAMAgAAAIAACAAAA=</HashCode>
+      <FileName>ViewModel\AddUserVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TabletManagerWPF.ViewModel.AuthVM">
+    <Position X="16" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAIAIAAAAIAAAAAAAAAAAACAAAQAACAAQA=</HashCode>
+      <FileName>ViewModel\AuthVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TabletManagerWPF.ViewModel.BaseVM" Collapsed="true">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\BaseVM.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TabletManagerWPF.ViewModel.ChangeShiftVM">
+    <Position X="7" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEABQAAAAEQACAAIAAggAAAgAEAAAAgAEQAACBAECQA=</HashCode>
+      <FileName>ViewModel\ChangeShiftVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TabletManagerWPF.ViewModel.EventsPageVM">
+    <Position X="9.25" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AFGAMDCACAFCAAAAIAEQSQAAAgQRgAAABAAABQZSCQI=</HashCode>
+      <FileName>ViewModel\EventsPageVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TabletManagerWPF.ViewModel.MainWindowVM">
+    <Position X="13.75" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="TabletManagerWPF.ViewModel.MainWindowVM.LocationChanged" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ViewModel\MainWindowVM.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIBIAABEhAAAAgAACJAgCAAAAKBAAAAMBACARAIAAA=</HashCode>
+      <FileName>ViewModel\MainWindowVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TabletManagerWPF.ViewModel.TabletPageVM">
+    <Position X="18.25" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gHAGECAAAAhQCAEQAQEAAAAgBAAAAAAIEAAACIAAGAw=</HashCode>
+      <FileName>ViewModel\TabletPageVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TabletManagerWPF.ViewModel.UserPageVM">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CCEMAAAAAAIiAIAJAAGAAICAQJBAAAAgAgAIDAAYIRA=</HashCode>
+      <FileName>ViewModel\UserPageVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="TabletManagerWPF.ViewModel.IsAlertActive">
+    <Position X="9.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\EventsPageVM.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

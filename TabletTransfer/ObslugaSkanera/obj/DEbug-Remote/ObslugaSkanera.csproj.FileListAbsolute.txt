@@ -1,0 +1,13 @@
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\bin\DEbug-Remote\ObslugaSkanera.exe.config
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\bin\DEbug-Remote\ObslugaSkanera.exe
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\bin\DEbug-Remote\HidBarcodeHandler.dll
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\bin\DEbug-Remote\RawInput.dll
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\DEbug-Remote\ObslugaSkanera.csproj.AssemblyReference.cache
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\DEbug-Remote\ObslugaSkanera.Main.resources
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\DEbug-Remote\ObslugaSkanera.Properties.Resources.resources
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\DEbug-Remote\ObslugaSkanera.UI.MySerialPort.resources
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\DEbug-Remote\ObslugaSkanera.WindowChooser.resources
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\DEbug-Remote\ObslugaSkanera.csproj.GenerateResource.cache
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\DEbug-Remote\ObslugaSkanera.csproj.CoreCompileInputs.cache
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\DEbug-Remote\ObslugaSkanera.csproj.CopyComplete
+C:\Repositories\Paperless\TabletTransfer\ObslugaSkanera\obj\DEbug-Remote\ObslugaSkanera.exe

@@ -1,0 +1,16 @@
+﻿<Window x:Class="TabletManagerWPF.View.Pages.AddComputer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TabletManagerWPF.View"
+        xmlns:ViewModel="clr-namespace:TabletManagerWPF.ViewModel"
+        d:DataContext="{d:DesignInstance Type={x:Type ViewModel:AddComputerVM}}" 
+        mc:Ignorable="d"
+        Title="AddComputer" Height="101.739" Width="389.13">
+    <Grid>
+        <Button x:Name="button" Template="{StaticResource ButtonPL}" Style="{StaticResource ButtonStyle}" Content="Dodaj" Command="{Binding AddComputerCommand}" HorizontalAlignment="Left" Margin="247,21,0,0" VerticalAlignment="Top" Width="93" RenderTransformOrigin="-0.264,0.829" Height="24"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="10,21,0,0" TextWrapping="Wrap" Text="{Binding ComputerName}" VerticalAlignment="Top" Width="163"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Release\Resources\badge.html
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Release\Resources\tablet_barcode.html
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Release\ConnectionWatcher.exe.config
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Release\ConnectionWatcher.exe
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Release\ConnectionWatcher.pdb
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Release\CommonDatabase.dll
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Release\QRCoder.dll
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Release\CommonDatabase.pdb
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\bin\Release\CommonDatabase.dll.config
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\obj\Release\ConnectionWatcher.csproj.AssemblyReference.cache
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\obj\Release\ConnectionWatcher.ProjectInstaller.resources
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\obj\Release\ConnectionWatcher.csproj.GenerateResource.cache
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\obj\Release\ConnectionWatcher.csproj.CoreCompileInputs.cache
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\obj\Release\ConnectionWatcher.csproj.CopyComplete
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\obj\Release\ConnectionWatcher.exe
+C:\Repositories\Paperless\TabletTransfer\ConnectionWatcher\obj\Release\ConnectionWatcher.pdb

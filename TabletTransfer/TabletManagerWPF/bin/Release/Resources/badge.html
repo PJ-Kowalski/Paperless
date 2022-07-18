@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .qr {
+            width: 100px;
+            height: 100px;
+            image-rendering: pixelated;
+            padding: 5px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        .txt {
+            float: left;
+            padding:10px;
+        }
+        .txt div {
+            padding-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width:8cm;height:5cm;border:1px solid red; position:relative">
+        <img class="qr" src="data:image/png;base64,[BARCODE]" />
+        <div class="txt">
+            <div>BADGE TYMCZASOWY</div>
+            <div><b> [NAME] </b></div>
+            <div> [ACPNO] </div>
+            <div><small>Data ważności: </small><br /><b> [EXPIRATION] </b></div>
+        </div>
+    </div>
+</body>
+</html>

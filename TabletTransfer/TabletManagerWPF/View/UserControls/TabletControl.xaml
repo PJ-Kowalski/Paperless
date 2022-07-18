@@ -1,0 +1,48 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TabletManagerWPF.View.UserControls"
+             xmlns:ValueConverters="clr-namespace:TabletManagerWPF.ValueConverters" x:Class="TabletManagerWPF.View.UserControls.TabletControl"
+             x:Name="UserLabelControlX"
+             mc:Ignorable="d" MinWidth="372" MinHeight="229">
+    <UserControl.Resources>
+        <ValueConverters:ImageToSourceConverter x:Key="ImageToSourceConverter"/>
+    </UserControl.Resources>
+    <Grid Background="#FFE4E3E3">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="124*"/>
+            <RowDefinition Height="115*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="120"/>
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="White" BorderThickness="1,1,1,1" Background="#FFCECBCB" CornerRadius="2,2,2,2" Grid.Column="1" Margin="30,34,0,4" HorizontalAlignment="Left" Width="60" Grid.ColumnSpan="2">
+            <Border.Effect>
+                <DropShadowEffect Color="#FFBFBFBF" BlurRadius="5" Opacity="0.805" ShadowDepth="2"/>
+            </Border.Effect>
+            <Image x:Name="PhotoResponsible" HorizontalAlignment="Center"  VerticalAlignment="Center"    Margin="1,1,1,1"/>
+        </Border>
+        <Border BorderBrush="White" BorderThickness="1,1,1,1" Width="60" Background="#FFCECBCB" CornerRadius="2,2,2,2" Grid.Column="1" Margin="30,16,0,13" Grid.Row="1" HorizontalAlignment="Left" Grid.ColumnSpan="2">
+            <Border.Effect>
+                <DropShadowEffect Color="#FFBFBFBF" BlurRadius="5" Opacity="0.805" ShadowDepth="2"/>
+            </Border.Effect>
+            <Image x:Name="PhotoLockedBy" HorizontalAlignment="Center"  VerticalAlignment="Center"  Grid.Column="1" Margin="1,1,1,1" />
+        </Border>
+        <Label x:Name="label" Grid.Column="1" Content="Odpowiedzialny" HorizontalAlignment="Left" Margin="9,4,0,0" VerticalAlignment="Top" Height="26" Width="96"/>
+        <Label x:Name="label_Copy" Grid.Column="1" Content="Zablokował" HorizontalAlignment="Center" Margin="0,117,0,0" VerticalAlignment="Top" Height="26" Width="70" Grid.RowSpan="2"/>
+        <StackPanel Margin="5,20,0,10" Height="209" Grid.RowSpan="2" Grid.Column="0" >
+            <local:ParameterItem x:Name="WindowsName" HorizontalAlignment="Left"  Height="21" Margin="0,1,0,0" Width="293"/>
+            <local:ParameterItem x:Name="SystemAdded" HorizontalAlignment="Left"  Height="21" Margin="0,1,0,0"/>
+            <local:ParameterItem x:Name="Responsible" HorizontalAlignment="Left"  Height="21" Margin="0,1,0,0" Width="285"/>
+            <local:ParameterItem x:Name="LastChange" HorizontalAlignment="Left"  Height="21" Margin="0,1,0,0" Width="242"/>
+            <local:ParameterItem x:Name="Bloked" HorizontalAlignment="Left"  VerticalAlignment="Top"  Height="21" Margin="0,1,0,0"/>
+            <local:ParameterItem x:Name="BlockType" HorizontalAlignment="Left"  Height="21" Margin="0,1,0,0" Width="216"/>
+            <local:ParameterItem x:Name="Blockedtime" HorizontalAlignment="Left"  VerticalAlignment="Top"  Height="21" Margin="0,1,0,0"/>
+            <local:ParameterItem x:Name="BlockedBy" HorizontalAlignment="Left"  VerticalAlignment="Top"  Height="21" Margin="0,1,0,0"/>
+        </StackPanel>
+        <Label x:Name="label_Copy1" Content="Informacje o tablecie" Margin="0,-4,0,0" VerticalAlignment="Top" Height="24" Foreground="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}" FontSize="10" HorizontalAlignment="Left" Width="127"/>
+    </Grid>
+</UserControl>

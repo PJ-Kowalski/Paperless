@@ -1,0 +1,54 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TabletManagerWPF.View"
+        xmlns:ViewModel="clr-namespace:TabletManagerWPF.ViewModel" 
+        xmlns:ValueConverters="clr-namespace:TabletManagerWPF.ValueConverters"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        d:DataContext="{d:DesignInstance Type={x:Type ViewModel:MainWindowVM}}" 
+        x:Class="TabletManagerWPF.View.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="1110" MinWidth="1110" MinHeight="650" Background="White">
+
+
+    <Window.Resources>
+        <ValueConverters:VisibilityConverter x:Key="VisibilityConverter"/>
+        <ValueConverters:ImageToSourceConverter x:Key="ImageToSourceConverter"/>
+    </Window.Resources>
+
+    <DockPanel>
+        <Grid DockPanel.Dock="Top" Height="82" >
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF8E8A8A" Offset="0.929"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="White" Offset="0.912"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <ComboBox x:Name="comboBox" Margin="0,16,27,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="120" ItemsSource="{Binding Locations}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedLocation}" SelectedValuePath="Name" SelectedIndex="0"/>
+            <Label x:Name="label_Copy1" Content="Lokalizacja" Margin="0,10,147,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="91" FontSize="16"/>
+            <local:UserLabelControl HorizontalAlignment="Left" Margin="6,6,0,0" VerticalAlignment="Top" Photo="{Binding User.Photo, Converter={StaticResource ImageToSourceConverter}}"  Region="{Binding User.Location}" Position="{Binding User.PositionName}" UserName="{Binding User.Name}" Height="62"/>
+            <Button Template="{StaticResource ButtonPL}"  Content ="Zmiana" Style="{StaticResource ButtonStyle}" Command="{Binding ChangeShiftCommand}" Margin="0,42,27,10" HorizontalAlignment="Right" Width="120" />
+            <TextBlock x:Name="Alarm" Style="{StaticResource AlarmIndicator}" Margin="461,6,449,0" TextWrapping="Wrap"  Text="     Niepotwierdzony ALARM" VerticalAlignment="Top" Visibility="{Binding AlarmIsActiv, Converter={StaticResource VisibilityConverter}}" Foreground="Red" Background="Black" Width="200" Height="20" IsEnabled="True" FontWeight="Bold" >
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="MouseDown" >
+                    <i:InvokeCommandAction Command="{Binding LoadEventsPageCommand}"></i:InvokeCommandAction>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+            </TextBlock>
+            <Label x:Name="label" Content="{Binding AppVersion}" HorizontalAlignment="Left" Margin="226,1,0,0" VerticalAlignment="Top" Width="153" Foreground="#FFC3C0C0" FontSize="11"/>
+
+        </Grid>
+        <StackPanel DockPanel.Dock="Left" Background="White" Width="153">
+            <Button x:Name="button" Content="Tablety             " HorizontalAlignment="Center" Template="{StaticResource ButtonSideBar}"  Width="151" Background="#FFFFFDFD" BorderBrush="White" FontSize="18" Margin="0,10,0,0" FontWeight="Normal"  Command="{Binding LoadUserTabletsCommand}"/>
+            <Button x:Name="button1" Content="Uzytkownicy    " HorizontalAlignment="Center" Template="{StaticResource ButtonSideBar}" Width="151" Background="#FFFFFDFD" BorderBrush="White" FontSize="18" Margin="0,10,0,0" Command="{Binding LoadUserPageCommand}" />
+            <Button x:Name="button2" Content="Zdarzenia        " HorizontalAlignment="Center" Template="{StaticResource ButtonSideBar}" Width="151" Background="#FFFFFDFD" BorderBrush="White" FontSize="18" Margin="0,10,0,0" Command="{Binding LoadEventsPageCommand}"/>
+            <Button x:Name="button3" Content="Ustawienia       " HorizontalAlignment="Center" Template="{StaticResource ButtonSideBar}" Width="151" Background="#FFFFFDFD" BorderBrush="White" FontSize="18" Margin="0,10,0,0" Command="{Binding LoadSetingPageCommand}"/>
+        </StackPanel>
+
+        <Border BorderThickness="1" Width="3" Background="#FFA9A8A8"/>
+        <Frame  DockPanel.Dock="Right" Content="{Binding CurrentPageModel}" NavigationUIVisibility="Hidden" />
+    </DockPanel>
+</Window>

@@ -1,0 +1,32 @@
+OK - zliczanie tabletów przy przekazaniu zm
+OK - zarz¹dzanie u¿ytkownikami ( dodawanie SL, przez TL)
+OK - zarz¹dzanie lokalizacjami
+NO	- migracja operatorów? - operator moze byc dodany do wielu lokalizacji
+OK	- dodawanie operatora pod SL poprzez skanowania ID card
+- logowanie zdarzen
+- sledzenie tabletu - powiadomienia
+OK - aktualny status urz¹dzenia
+OK - Raport o historii urz¹dzenia
+
+ok - drukowanie kodow kreskowych tabletow
+OK - drukowanie dodatkowych kart ID dla uzytkownikow - czas aktywnosci karty max 12h!
+
+- przepisac na entityframework
+- zaimplementowac maszyne stanow w tablettransfer za pomoca stateless
+
+
+skanowanie i skreslanie z listy do przekazania
+przy przekazzniu do magazynu potwierdzenie czy jest ok
+ok - alert przy PRÓBIE przekazanie nieobecnemu
+blokowanie tabletu zdalnie
+wyswietl komunikat
+
+braki przy przekazniu zmiany wyslanie powiadomien o statusie przekazani - do wszystkich TL
+
+ok - zdarzenia w tabelce w odwrotnej kolejnosci
+ok - dodaj na liscie uzytkownikow czy sa w pracy
+
+ok - tylko jedna instancja
+
+
+ok - ekran blokady - zly user, nie zablokowal sie w systemie

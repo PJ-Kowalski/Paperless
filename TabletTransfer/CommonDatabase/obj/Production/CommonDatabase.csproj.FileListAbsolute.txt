@@ -1,0 +1,10 @@
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\bin\Production\CommonDatabase.dll.config
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\bin\Production\CommonDatabase.dll
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\bin\Production\Oracle.ManagedDataAccess.dll
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\bin\Production\QRCoder.dll
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\obj\Production\CommonDatabase.csproj.CoreCompileInputs.cache
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\obj\Production\CommonDatabase.csproj.CopyComplete
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\obj\Production\CommonDatabase.dll
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\bin\Production\Resources\badge.html
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\bin\Production\Resources\tablet_barcode.html
+C:\Repositories\Paperless\TabletTransfer\CommonDatabase\obj\Production\CommonDatabase.g.resources

@@ -1,0 +1,62 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TabletManagerWPF.View.Pages"
+      xmlns:controls="clr-namespace:TabletManagerWPF.View.UserControls"
+      xmlns:UserControls="clr-namespace:TabletManagerWPF.View.UserControls" 
+      xmlns:View="clr-namespace:TabletManagerWPF.View" 
+      xmlns:viewmodel="clr-namespace:TabletManagerWPF.ViewModel" 
+      xmlns:ValueConverters="clr-namespace:TabletManagerWPF.ValueConverters" 
+      d:DataContext="{d:DesignInstance Type={x:Type viewmodel:TabletPageVM}}" x:Class="TabletManagerWPF.View.Pages.TabletsPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TabletsPage">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <ValueConverters:VisibilityConverter x:Key="VisibilityConverter"/>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="51*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="49*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="dataGrid" ItemsSource="{Binding Tablets}" Margin="10,49,5,10" AutoGenerateColumns="False" SelectedItem="{Binding SelectedTablet, Mode=TwoWay}" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nazwa" Binding="{Binding WindowsName}"/>
+                <DataGridTextColumn Header="Odpowiedzialny" Binding="{Binding Responsible}"/>
+                <DataGridTextColumn Header="Typ blokady" Binding="{Binding LockType}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <DataGrid x:Name="dataGrid1" ItemsSource="{Binding TabletEvents}" Margin="10,279,10,10" Grid.Column="2" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Tablet" Binding="{Binding SourceName}"/>
+                <DataGridTextColumn Header="Osoba" Binding="{Binding CreatedBy}"/>
+                <DataGridTextColumn Header="Data" Binding="{Binding CreationDate}"/>
+                <DataGridTextColumn Header="Event" Binding="{Binding EventType}"/>
+                <DataGridTextColumn Header="Opis" Binding="{Binding Content}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <UserControls:TabletControl tablet="{Binding SelectedTablet}" Grid.Column="2"  Height="215" VerticalAlignment="Top" Margin="10,10,10,0"/>
+        <Button Template="{StaticResource ButtonPL}"  x:Name="button" Content="Zmień lokalizacje" Command="{Binding ChangeLocationCommand}" Margin="211,13,0,0" VerticalAlignment="Top" BorderBrush="#FF707070" Style="{StaticResource ButtonStyle}" HorizontalAlignment="Left" Width="95"/>
+        <Button Template="{StaticResource ButtonPL}"  x:Name="button1" Command="{Binding PrintTabletBarcodeCommand}" Content="Drukuj kod" Margin="311,13,0,0" VerticalAlignment="Top" Style="{StaticResource ButtonStyle}" HorizontalAlignment="Left" Width="95"/>
+        <Button Template="{StaticResource ButtonPL}"  x:Name="button3" Content="Zablokuj" Command="{Binding RemoteLockCommand, Mode=OneWay}" Margin="110,13,0,0" VerticalAlignment="Top" BorderBrush="#FF707070" Style="{StaticResource ButtonStyle}" HorizontalAlignment="Left" Width="95"/>
+        <CheckBox x:Name="checkBox" Grid.Column="2" IsChecked="{Binding PassOnly}" Content="Tylko przekazania" HorizontalAlignment="Left" Margin="20,255,0,0" VerticalAlignment="Top"/>
+        <GroupBox Header="Z ostatniej :" Grid.Column="2" Margin="0,239,10,0" Height="35" VerticalAlignment="Top" HorizontalAlignment="Right" Width="244">
+            <StackPanel Orientation="Horizontal" Margin="73,-5,0,-5">
+                <RadioButton x:Name="radioButton" Grid.Column="1" Content="1h"  HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="5,0,0,0" IsChecked="{Binding OneHour}"/>
+                <RadioButton x:Name="radioButton_Copy" Grid.Column="1" Content="12h" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="10,0,0,0" IsChecked="{Binding TvelweHGour}"/>
+                <RadioButton x:Name="radioButton_Copy1" Grid.Column="1" Content="24h" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0" IsChecked="{Binding OneDay}"/>
+            </StackPanel>
+        </GroupBox>
+        <GridSplitter Grid.Column="1" Width="3" VerticalAlignment="Stretch" HorizontalAlignment="Center" Background="Gray" />
+        <Button Template="{StaticResource ButtonPL}"  x:Name="button3_Copy" Content="Dodaj" Command="{Binding AddComputerCommand, Mode=OneWay}" Margin="10,13,0,0" VerticalAlignment="Top" BorderBrush="#FF707070" Style="{StaticResource ButtonStyle}" HorizontalAlignment="Left" Width="95" Visibility="{Binding addComputerVisible, Converter={StaticResource VisibilityConverter}}"/>
+    </Grid>
+</Page>

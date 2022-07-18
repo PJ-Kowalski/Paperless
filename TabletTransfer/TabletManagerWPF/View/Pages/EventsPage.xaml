@@ -1,0 +1,67 @@
+﻿<Page x:Class="TabletManagerWPF.View.Pages.EventsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TabletManagerWPF.View.Pages" 
+      xmlns:viewmodel="clr-namespace:TabletManagerWPF.ViewModel" 
+      d:DataContext="{d:DesignInstance Type=viewmodel:EventsPageVM}"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="EventsPage">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid Background="White" DataContext="{Binding Mode=OneWay}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="224*"/>
+            <RowDefinition Height="201*"/>
+        </Grid.RowDefinitions>
+        <DataGrid x:Name="dataGrid" ItemsSource="{Binding Alerts}" Margin="10,50,10,10" AutoGenerateColumns="True" SelectedItem="{Binding SelectedAlert, Mode=TwoWay}" Grid.Row="1" >
+            <!--<DataGrid.Columns>
+                <DataGridTemplateColumn Header="Potwierdz" >
+                    <DataGridTemplateColumn.CellTemplate >
+                        <DataTemplate>
+                            <Button Content="OK" Style="{StaticResource ButtonStyle}" Command="{Binding AckBy}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>-->
+        </DataGrid>
+        <GroupBox Header="Z ostatniej :" Margin="10,0,10,0" Height="45" VerticalAlignment="Top" Grid.Row="1">
+            <StackPanel Orientation="Horizontal" Margin="73,-5,0,-5">
+                <RadioButton x:Name="radioButton" Grid.Column="1" Content="1h"  HorizontalAlignment="Left"  VerticalAlignment="Center" Margin="5,0,0,0" IsChecked="{Binding OneHourAlert}"/>
+                <RadioButton x:Name="radioButton_Copy" Grid.Column="1" Content="12h" HorizontalAlignment="Left"  VerticalAlignment="Center" Margin="10,0,0,0" IsChecked="{Binding TvelweHourAlert}"/>
+                <RadioButton x:Name="radioButton_Copy1" Grid.Column="1" Content="24h" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0" IsChecked="{Binding OneDayAlert}"/>
+                <RadioButton  Grid.Column="1" Content="" VerticalAlignment="Center" Margin="50,0,0,0" IsChecked="{Binding RangeAlert}" Width="15"/>
+                <TextBlock Text="Od" Margin="5,0,0,0" VerticalAlignment="Center"/>
+                <DatePicker x:Name="datePicker3" Margin="10,0,0,0" FontSize="11" SelectedDate="{Binding AlertsFrom, Mode=TwoWay}" Height="24" BorderBrush="{x:Null}" VerticalAlignment="Center"/>
+                <TextBlock Text="Do" Margin="20,0,0,0" VerticalAlignment="Center"/>
+                <DatePicker x:Name="datePicker4" Margin="10,0,0,0" FontSize="11" SelectedDate="{Binding AlertsTo, Mode=TwoWay}" Height="25" BorderBrush="{x:Null}" VerticalAlignment="Center"/>
+                <Button Template="{StaticResource ButtonPL}"  Content="Pokaż" Style="{StaticResource ButtonStyle}" Command="{Binding RefreshAlarmsCommand}" Width="70" Height="22" VerticalAlignment="Center"/>
+                <Button Template="{StaticResource ButtonPL}"  Content="Potwierdź" Style="{StaticResource ButtonStyle}" Command="{Binding ConfirmAlarmCommand}" Width="70" Height="22" VerticalAlignment="Center" Margin="20,0,0,0"/>
+            </StackPanel>
+        </GroupBox>
+        <DataGrid x:Name="dataGrid_Copy" ItemsSource="{Binding Events}" Margin="10,52,10,10" Grid.Row="2" AutoGenerateColumns="True"/>
+        <GroupBox Header="Z ostatniej :" Margin="10,2,10,0" Grid.Row="2" Height="45" VerticalAlignment="Top">
+            <StackPanel Orientation="Horizontal" Margin="73,-5,0,-5">
+                <RadioButton x:Name="radioButton1" Grid.Column="1" Content="1h"  HorizontalAlignment="Left"  VerticalAlignment="Center" Margin="5,0,0,0" IsChecked="{Binding OneHourEvent}"/>
+                <RadioButton x:Name="radioButton_Copy2" Grid.Column="1" Content="12h" HorizontalAlignment="Left"  VerticalAlignment="Center" Margin="10,0,0,0" IsChecked="{Binding TvelweHourEvent}"/>
+                <RadioButton x:Name="radioButton_Copy3" Grid.Column="1" Content="24h" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0" IsChecked="{Binding OneDayEvent}"/>
+                <RadioButton  Grid.Column="1" Content="" VerticalAlignment="Center" Margin="50,0,0,0" IsChecked="{Binding RangeEvent}" Width="15"/>
+                <TextBlock Text="Od" Margin="5,0,0,0" Height="20" HorizontalAlignment="Center"/>
+                <DatePicker x:Name="datePicker" Margin="10,0,0,0" FontSize="11" SelectedDate="{Binding EventsFrom, Mode=TwoWay}" BorderBrush="{x:Null}" Text="from" Height="25"/>
+                <TextBlock Text="Do" Margin="20,0,0,0" Height="20"/>
+                <DatePicker x:Name="datePicker2" Margin="10,0,0,0" FontSize="11" SelectedDate="{Binding EventsTo, Mode=TwoWay}" BorderBrush="{x:Null}" Height="28"/>
+                <Button Template="{StaticResource ButtonPL}"  Content="Pokaż" Style="{StaticResource ButtonStyle}" Command="{Binding RefreshEventsCommand}" Width="70" Height="22" VerticalAlignment="Center"/>
+            </StackPanel>
+        </GroupBox>
+        <CheckBox x:Name="checkBox" Content="Podgląd na żywo" Margin="10,0,0,0" VerticalAlignment="Center"  IsChecked="{Binding AutoRefresch}" HorizontalAlignment="Left" Width="110"/>
+
+    </Grid>
+</Page>

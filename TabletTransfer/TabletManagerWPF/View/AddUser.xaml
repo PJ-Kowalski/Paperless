@@ -1,0 +1,36 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TabletManagerWPF.View.UserControls"
+        xmlns:ValueConverters="clr-namespace:TabletManagerWPF.ValueConverters" xmlns:ViewModel="clr-namespace:TabletManagerWPF.ViewModel" x:Class="TabletManagerWPF.View.UserControls.AddUser"
+        mc:Ignorable="d"
+        Title="AddUser" Height="303" Width="284" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" ShowInTaskbar="False" WindowStyle="SingleBorderWindow">
+    <Window.Resources>
+        <ValueConverters:ImageToSourceConverter x:Key="ImageToSourceConverter"/>
+    </Window.Resources>
+    <!--<Window.DataContext>
+        <ViewModel:AddUserVM/>
+    </Window.DataContext>-->
+    <Grid>
+        <GroupBox Header="Dodaj Użytkownika">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25">
+                    <TextBlock Text="ACP No" Margin="5,0,0,0" VerticalAlignment="Center"/>
+                    <TextBox Width="100" Margin="2,0,0,0" Text="{Binding ACPNo}" VerticalAlignment="Center"/>
+                    <Button Width="80" Content="Szukaj" Command="{Binding SearchCommand}" Background="#FFFFFDFD" Margin="2,0,0,0" Height="19"/>
+                </StackPanel>
+                <Image Margin="0,10,0,0" Height="150" Source="{Binding User.Photo, Converter={StaticResource ImageToSourceConverter}}"  />
+                <StackPanel Orientation="Horizontal" Margin="0,3,0,0">
+                    <TextBlock Text="Pozycja" VerticalAlignment="Center"/>
+                    <ComboBox Width="175" Margin="20,0,0,0" ItemsSource="{Binding Positions}" SelectedItem="{Binding SelectedPosition}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,3,0,0">
+                    <Button Content="Dodaj" Width="100" Command="{Binding AddNewUserCommand}" Background="White" Margin="10,0,0,0"/>
+                    <Button Content="Anuluj" Width="100" Command="{Binding CloseCommand}" Background="White" Margin="40,0,0,0"/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>
